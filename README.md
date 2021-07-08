@@ -1,5 +1,5 @@
 ## Fish & Shark Ecosystem
-short description of your chosen predator-prey ecosystem 
+This is a marine ecosystem which works in such a way that the shark (predator) feeds on the fish (prey) while the small fish feeds on the algae on its surroundings. This system was modelled using NetLogo. In this model system, the variables that could be set are the initial population of the fish and sharks, the regrowth time of algae, as well as, the reproduce probability of fish and sharks.
 
 ## Roles
 ### Algae (Food of Prey)
