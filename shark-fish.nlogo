@@ -132,7 +132,7 @@ to reproduce-sharks
 end
 
 to-report algae
-  report patches with [pcolor = 86]
+  report patches with [pcolor = 36]
 end
 
 to do-plots
@@ -166,8 +166,8 @@ GRAPHICS-WINDOW
 16
 -16
 16
-0
-0
+1
+1
 1
 ticks
 30.0
@@ -198,7 +198,7 @@ initial-number-fish
 initial-number-fish
 0
 200
-100.0
+127.0
 1
 1
 NIL
@@ -213,7 +213,7 @@ initial-number-sharks
 initial-number-sharks
 0
 200
-100.0
+46.0
 1
 1
 NIL
@@ -254,7 +254,7 @@ true
 PENS
 "sharks" 1.0 0 -13345367 true "" "plot count sharks"
 "fish" 1.0 0 -955883 true "" "plot count fish"
-"algae" 1.0 0 -8990512 true "" "plot count algae"
+"algae" 1.0 0 -5207188 true "" "plot count algae"
 
 SLIDER
 13
@@ -265,7 +265,7 @@ algae-regrowth-time
 algae-regrowth-time
 0
 50
-25.0
+10.0
 1
 1
 NIL
@@ -280,7 +280,7 @@ fish-reproduce-probability
 fish-reproduce-probability
 0
 30
-25.0
+20.0
 1
 1
 %
@@ -295,7 +295,7 @@ sharks-reproduce-probability
 sharks-reproduce-probability
 0
 30
-25.0
+15.0
 1
 1
 %
